@@ -1,4 +1,4 @@
-Merlin
+I USE Merlin Bootstrap free template :)
 ======
 Free template with [Twitter Bootstrap](http://getbootstrap.com/) framework.
 
