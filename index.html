@@ -19,6 +19,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174002434-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-174002434-1');
+        gtag('set', {'user_id': 'USER_ID'}); // Définir l'ID utilisateur à partir du paramètre user_id de l'utilisateur connecté.
+        ga('set', 'userId', 'USER_ID'); // Définir l'ID utilisateur à partir du paramètre user_id de l'utilisateur connecté.
+    </script>
+
 </head>
 
 <body>
@@ -273,26 +285,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.appear/0.3.3/jquery.appear.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.8.2/venobox.min.js"></script>
     <script src="js/script.js?v=1.0"></script>
-    <!-- Google Analytics: change UA-25089888-9 to be your site's ID. -->
-    <!--<script>
-        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-25089888-9');ga('send','pageview');
-    </script>-->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174002434-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-174002434-1');
-        gtag('set', {'user_id': 'USER_ID'}); // Définir l'ID utilisateur à partir du paramètre user_id de l'utilisateur connecté.
-        ga('set', 'userId', 'USER_ID'); // Définir l'ID utilisateur à partir du paramètre user_id de l'utilisateur connecté.
-    </script>
 </body>
 
 </html>
